@@ -36,7 +36,7 @@ git clone git@github.com:cfghk23/Team-1.git
     Navigate to the `Team-1` folder. Set the appropriate permissions for the private key file to connect to the virtual machine:
 
     ```
-    chmod 600 path/to/team_x.pem
+    chmod 600 ./Team-1.pem
     ```
 
 - **Connecting to the VM**: 
