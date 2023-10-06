@@ -1,0 +1,35 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = {version="<0.89.0"}
+uvicorn = {extras = ["standard"], version = "*"}
+motor = "*"
+autopep8 = "*"
+fastapi_camelcase = "*"
+PyJWT = "*"
+python-decouple = "*"
+pydantic = {extras = ["email"], version = "*"}
+bcrypt = "*"
+kafka-python = "*"
+gunicorn = "*"
+requests = "*"
+boto3 = "*"
+timeloop = "*"
+python-dateutil = "*"
+pandas = "*"
+pylint = "*"
+redis = "*"
+numpy = "*"
+pytest = "*"
+pytest-asyncio = "*"
+pytest-cov = "*"
+sse-starlette = "*"
+yfinance = {version="<0.1.75"}
+web3 = "*"
+[dev-packages]
+
+[requires]
+python_version = "3.8"
