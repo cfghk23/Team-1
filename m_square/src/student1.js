@@ -20,7 +20,7 @@ function Leaderboard() {
         }}
         alt="bgurl"
         src={bgurl}
-        onClick={() => navigate('/course2')}
+        onClick={() => navigate('/student2')}
       />
 
   )
