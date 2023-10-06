@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 import uvicorn
 from routes.user_route import router as UserRouter
-# from routes.product_route import router as ProductRouter
+from routes.courses_route import router as CoursesRouter
 # from routes.portfolio_route import router as PortfolioRouter
 # from routes.leaderboard_route import router as LeaderboardRouter
 from fastapi.middleware.cors import CORSMiddleware
@@ -34,7 +34,7 @@ app.add_middleware(
 )
 
 app.include_router(UserRouter, tags=["Users"], prefix="/users")
-# app.include_router(ProductRouter, tags=["Products"], prefix="/v0.1/products")
+app.include_router(CoursesRouter, tags=["Courses"], prefix="/courses")
 # app.include_router(PortfolioRouter, tags=[
 #                    "Portfolios"], prefix="/v0.1/portfolios")
 # app.include_router(LeaderboardRouter, tags=[
