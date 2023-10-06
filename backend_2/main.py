@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 import uvicorn
-# from routes.user_route import router as UserRouter
+from routes.user_route import router as UserRouter
 # from routes.product_route import router as ProductRouter
 # from routes.portfolio_route import router as PortfolioRouter
 # from routes.leaderboard_route import router as LeaderboardRouter
@@ -23,12 +23,6 @@ app = FastAPI()
 
 origins = [
     "http://localhost:3000",
-    "https://artcentral.io",
-    "https://www.nefertiti.tech",
-    "https://nefertiti.tech",
-    "https://stage-ldn.artcentral.io",
-    "https://stage-ldn.nefertiti.tech",
-    "https://app.nefertiti.tech"
 ]
 
 app.add_middleware(
@@ -39,7 +33,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# app.include_router(UserRouter, tags=["Users"], prefix="/v0.1/users")
+app.include_router(UserRouter, tags=["Users"], prefix="/users")
 # app.include_router(ProductRouter, tags=["Products"], prefix="/v0.1/products")
 # app.include_router(PortfolioRouter, tags=[
 #                    "Portfolios"], prefix="/v0.1/portfolios")
