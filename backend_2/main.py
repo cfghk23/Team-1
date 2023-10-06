@@ -7,7 +7,7 @@ from routes.user_route import router as UserRouter
 from fastapi.middleware.cors import CORSMiddleware
 import logging
 from decouple import config
-# from database import database
+from database import database
 
 
 logging.basicConfig(level=logging.INFO)
