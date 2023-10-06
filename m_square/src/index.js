@@ -2,6 +2,7 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Analytics from "./analytics";
 import Course from "./course";
+import Leaderboard from "./leaderboard";
 // import Layout from "./pages/Layout";
 import Login from "./login";
 // import Blogs from "./pages/Blogs";
@@ -16,6 +17,7 @@ export default function App() {
         <Route path="/" element={<Login />} />
         <Route path="/course" element={<Course />} />
         <Route path="/analytics" element={<Analytics />} />
+        <Route path="/leaderboard" element={<Leaderboard />} />
         {/* <Route path="contact" element={<Contact />} /> */}
         {/* <Route path="*" element={<NoPage />} /> */}
         {/* </Route> */}
