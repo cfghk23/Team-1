@@ -10,8 +10,6 @@ from decouple import config
 # from database import database
 
 
-DOCS_ENABLED = config("docs") == "True"
-
 logging.basicConfig(level=logging.INFO)
 
 
@@ -21,8 +19,7 @@ if __name__ == "__main__":
 
 
 
-app = FastAPI(docs_url="/docs" if DOCS_ENABLED else None,
-              redoc_url="/redoc" if DOCS_ENABLED else None)
+app = FastAPI()
 
 origins = [
     "http://localhost:3000",
