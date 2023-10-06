@@ -6,6 +6,7 @@ import Leaderboard from "./leaderboard";
 // import Layout from "./pages/Layout";
 import Login from "./login";
 import Student from "./student1";
+import Student2 from "./student2";
 // import Blogs from "./pages/Blogs";
 // import Contact from "./pages/Contact";
 // import NoPage from "./pages/NoPage";
@@ -20,6 +21,7 @@ export default function App() {
         <Route path="/analytics" element={<Analytics />} />
         <Route path="/leaderboard" element={<Leaderboard />} />
         <Route path="/student" element={<Student />} />
+        <Route path="/student2" element={<Student2 />} />
         {/* <Route path="contact" element={<Contact />} /> */}
         {/* <Route path="*" element={<NoPage />} /> */}
         {/* </Route> */}
