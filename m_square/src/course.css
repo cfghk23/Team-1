@@ -13,5 +13,17 @@ code {
 }
 
 .bar{
-  background: #ff00ff;
+  background: #11CDCE;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-context{
+  display: flex;
+  justify-content: center;
+}
+
+.island-container{
+  display: flex;
+  justify-content: space-between;
 }

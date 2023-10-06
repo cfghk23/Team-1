@@ -21,7 +21,7 @@ import bgurl from "./login_background.jpg";
 function Login(props) {
   let navigate = useNavigate();
   const routeChange = () => {
-    let path = `/course`;
+    let path = `/classes`;
     navigate(path);
   };
   return (

@@ -1,0 +1,13 @@
+.general-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.individual-container{
+    background-color: #369FFF;
+    opacity: 0.2;
+}
+
+.list-item{
+    color:black;
+}

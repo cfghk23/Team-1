@@ -1,0 +1,130 @@
+[{
+  "_id": {
+    "$oid": "651f965fbbafe3c753857553"
+  },
+  "id": {
+    "$oid": "651f9640fc13ae64167a831c"
+  },
+  "course_title": "Mastering Money Matters: A Teen's Guide to Financial Freedom",
+  "creator_id": {
+    "$oid": "651f9640fc13ae64167a831d"
+  },
+  "created_at": "2/26/2023"
+},
+{
+  "_id": {
+    "$oid": "651f965fbbafe3c753857554"
+  },
+  "id": {
+    "$oid": "651f9640fc13ae64167a831e"
+  },
+  "course_title": "Financial Foundations: Building Blocks for a Secure Future",
+  "creator_id": {
+    "$oid": "651f9640fc13ae64167a831f"
+  },
+  "created_at": "8/29/2023"
+},
+{
+  "_id": {
+    "$oid": "651f965fbbafe3c753857555"
+  },
+  "id": {
+    "$oid": "651f9640fc13ae64167a8320"
+  },
+  "course_title": "Teen Finance 101: Earning",
+  "creator_id": {
+    "$oid": "651f9640fc13ae64167a8321"
+  },
+  "created_at": "12/3/2022"
+},
+{
+  "_id": {
+    "$oid": "651f965fbbafe3c753857556"
+  },
+  "id": {
+    "$oid": "651f9640fc13ae64167a8322"
+  },
+  "course_title": "Spending and Saving Smartly",
+  "creator_id": {
+    "$oid": "651f9640fc13ae64167a8323"
+  },
+  "created_at": "7/19/2023"
+},
+{
+  "_id": {
+    "$oid": "651f965fbbafe3c753857557"
+  },
+  "id": {
+    "$oid": "651f9640fc13ae64167a8324"
+  },
+  "course_title": "Dollars & Sense: Navigating the Financial World as a Teenager",
+  "creator_id": {
+    "$oid": "651f9640fc13ae64167a8325"
+  },
+  "created_at": "3/11/2023"
+},
+{
+  "_id": {
+    "$oid": "651f965fbbafe3c753857558"
+  },
+  "id": {
+    "$oid": "651f9640fc13ae64167a8326"
+  },
+  "course_title": "Money Moves for Teens: Preparing for Financial Independence",
+  "creator_id": {
+    "$oid": "651f9640fc13ae64167a8327"
+  },
+  "created_at": "2/1/2023"
+},
+{
+  "_id": {
+    "$oid": "651f965fbbafe3c753857559"
+  },
+  "id": {
+    "$oid": "651f9640fc13ae64167a8328"
+  },
+  "course_title": "Financial Lifelines: Budgeting Saving and Investing Basics",
+  "creator_id": {
+    "$oid": "651f9640fc13ae64167a8329"
+  },
+  "created_at": "7/2/2023"
+},
+{
+  "_id": {
+    "$oid": "651f965fbbafe3c75385755a"
+  },
+  "id": {
+    "$oid": "651f9640fc13ae64167a832a"
+  },
+  "course_title": "From Pocket Money to Paychecks: A Teen’s Journey in Financial Literacy",
+  "creator_id": {
+    "$oid": "651f9640fc13ae64167a832b"
+  },
+  "created_at": "9/25/2023"
+},
+{
+  "_id": {
+    "$oid": "651f965fbbafe3c75385755b"
+  },
+  "id": {
+    "$oid": "651f9640fc13ae64167a832c"
+  },
+  "course_title": "Teen Wealth Wisdom: Money Management for the Next Generation",
+  "creator_id": {
+    "$oid": "651f9640fc13ae64167a832d"
+  },
+  "created_at": "10/12/2022"
+},
+{
+  "_id": {
+    "$oid": "651f965fbbafe3c75385755c"
+  },
+  "id": {
+    "$oid": "651f9640fc13ae64167a832e"
+  },
+  "course_title": "Future Millionaire's Playbook: Introduction to Financial Literacy",
+  "creator_id": {
+    "$oid": "651f9640fc13ae64167a832f"
+  },
+  "created_at": "4/18/2023"
+}]
