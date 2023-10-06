@@ -1,29 +1,28 @@
-import React from "react";
-// import ReactDOM from 'react-dom/client';
-import App from "./App";
-import logo from "./logo.svg";
-// import reportWebVitals from './reportWebVitals';
-
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>
-// );
-
+import * as React from "react";
+import Container from "@mui/material/Container";
+import Typography from "@mui/material/Typography";
+import Box from "@mui/material/Box";
+import url from "./Project_M2.png";
 function Login() {
   return (
-    <div className="Login">
-      <header className="Login-header">
-        <img src={logo} className="Login-logo" alt="logo" />
-        <img src={logo} className="Login-logo" alt="logo" />
-        <img src={logo} className="Login-logo" alt="logo" />
-        <Button></Button>
-        {/* <p>
-        </p> */}
-        <a>Login Page</a>
-      </header>
-    </div>
+    <Container maxWidth="sm">
+      <Box
+        component="img"
+        sx={{
+          height: 50,
+          width: 200,
+          maxHeight: { xs: 233, md: 167 },
+          maxWidth: { xs: 350, md: 250 },
+        }}
+        alt="Logo"
+        src={url}
+      />
+      <Box sx={{ my: 4 }}>
+        <Typography variant="h4" component="h1" gutterBottom>
+          Create React App v5 example
+        </Typography>
+      </Box>
+    </Container>
   );
 }
 
