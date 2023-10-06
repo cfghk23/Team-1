@@ -1,8 +1,10 @@
-import logo from "./logo.svg";
+import logo from "./Project_M2.png";
 import "./App.css";
+import { Button, Stack } from "react-bootstrap";
 
+const id = 0;
 function App() {
-  return (
+  return id === 0 ? (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -17,8 +19,13 @@ function App() {
         >
           Learn React
         </a>
+        <div className="App-content">
+          <h1>Hi</h1>
+        </div>
       </header>
     </div>
+  ) : (
+    <div></div>
   );
 }
 

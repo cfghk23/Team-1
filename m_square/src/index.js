@@ -2,7 +2,7 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Course from "./course";
 // import Layout from "./pages/Layout";
-// import Home from "./pages/Home";
+import Login from "./login";
 // import Blogs from "./pages/Blogs";
 // import Contact from "./pages/Contact";
 // import NoPage from "./pages/NoPage";
@@ -12,15 +12,15 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         {/* <Route path="/" element={<Course />}> */}
-          {/* <Route index element={<Home />} /> */}
-          <Route path="/" element={<Course />} />
-          {/* <Route path="contact" element={<Contact />} /> */}
-          {/* <Route path="*" element={<NoPage />} /> */}
+        <Route path="/" element={<Login />} />
+        <Route path="/course" element={<Course />} />
+        {/* <Route path="contact" element={<Contact />} /> */}
+        {/* <Route path="*" element={<NoPage />} /> */}
         {/* </Route> */}
       </Routes>
     </BrowserRouter>
   );
 }
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />);

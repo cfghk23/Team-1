@@ -9,23 +9,36 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    top:100px;
+    left:50px;
+    position: relative;
+    width: 150px;
+    height: auto;
   }
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
   color: #61dafb;
+  
+}
+.App-content{
+  background-image: "url('https://projectm2.net/images/login_background.jpg')";
+  height:'100vh';
+  margin-top:'-70px';
+  font-size:'50px';
+  background-size: 'cover';
+  background-repeat: 'no-repeat';
 }
 
 @keyframes App-logo-spin {
